@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #F0F2F5;
+}
+
+.authentication-container {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.authentication-container .left {
+  width: calc( 100% - 400px);
+}
+
+.authentication-container .left .background-image {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.authentication-container .left .background-image img {
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.authentication-container .left .content {
+  z-index: 2;
+  position: absolute;
+  margin: 5% 15%;
+}
+
+.authentication-container .left .content .headline h1 {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.authentication-container .left .content .headline h4 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.authentication-container .right {
+  width: 400px;
+  background: #fff;
+  -webkit-box-shadow: -3px 3px 16px -10px #000000;
+          box-shadow: -3px 3px 16px -10px #000000;
+}
+
+.authentication-container .right .top {
+  padding: 20px 10px;
+}
+
+.authentication-container .right .top .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.authentication-container .right .top .logo img {
+  width: 200px;
+  height: auto;
+}
+
+.authentication-container .right .top .title {
+  text-align: center;
+  padding: 5px;
+  color: #808080;
+}
+
+.authentication-container .right .top .description {
+  text-align: center;
+  padding: 5px;
+}
+
+.authentication-container .right .top .description p {
+  font-size: 14px;
+}
+
+.authentication-container .right .bot {
+  padding: 20px 10px;
+}
+
+.Form {
+  padding: 10px;
+}
+
+.Form .Form-Group {
+  margin: 12px;
+  width: 100%;
+}
+
+.Form .Form-Group .Input {
+  padding: 12px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  position: relative;
+  background: #fff;
+  cursor: text;
+}
+
+.Form .Form-Group .Input .Left {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  position: absolute;
+  cursor: text;
+  padding: 0px 4px;
+  margin-top: 0px;
+}
+
+.Form .Form-Group .Input .Left label {
+  font-size: 14px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: text;
+  font-weight: 600;
+  color: gray;
+}
+
+.Form .Form-Group .Input .Right {
+  position: absolute;
+  right: 5px;
+  margin-top: -4px;
+  padding: 0px;
+  min-height: 30px;
+  min-width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Form .Form-Group .Input .Right .Icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0px 2.5px;
+  cursor: pointer;
+}
+
+.Form .Form-Group .Input .Right .Icon:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.Form .Form-Group .Input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.Form .Form-Group .Input.active {
+  border: 1px solid #3b96c0 !important;
+}
+
+.Form .Form-Group .Input.active .Left {
+  background: #fff;
+  margin-top: -24px;
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
+}
+
+.Form .Form-Group .Input.active .Left label {
+  color: #3b96c0;
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
+}
+
+.Form .Form-Group .Link {
+  margin: 0 2.5px;
+}
+
+.Form .Form-Group .Link a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #3b96c0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Form .Form-Group .Link a:hover {
+  text-decoration: underline;
+}
+
+.Form .Form-Group .PLink {
+  margin: 2.5px;
+  font-size: 14px;
+}
+
+.Form .Form-Group .PLink a {
+  text-decoration: none;
+  color: #3b96c0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Form .Form-Group .PLink a:hover {
+  text-decoration: underline;
+}
+
+.Form .Form-Group .Buttons {
+  margin-top: 19px;
+}
+
+.Form .Form-Group .Buttons .Button {
+  padding: 10px 12px;
+  background: #0047B8;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.Form .Form-Group .Buttons .Button span {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.Form .Form-Group .Buttons .Button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*# sourceMappingURL=authentication.css.map */

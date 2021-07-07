@@ -1,0 +1,159 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    background: #F0F2F5
+
+.authentication-container
+    width: 100%
+    min-height: 100vh
+    display: flex
+    .left
+        width: calc( 100% - 400px)
+        .background-image
+            width: 100%
+            height: 100%
+            z-index: 1
+            object-fit: cover
+            img
+                width: 100%
+                height: 100%
+                user-select: none
+                -webkit-user-drag: none
+                filter: blur(2px)
+                object-fit: cover
+        .content
+            z-index: 2
+            position: absolute
+            margin: 5% 15%
+            .headline
+                h1
+                    font-size: 50px
+                    color: rgba(0, 0, 0, 0.60)
+                h4
+                    margin-top: 10px
+                    font-size: 24px
+                    color: rgba(0, 0, 0, 0.30)
+
+    .right
+        width: 400px
+        background: #fff
+        box-shadow: -3px 3px 16px -10px #000000
+        .top
+            padding: 20px 10px
+            .logo
+                display: flex
+                justify-content: center
+                img
+                    width: 200px
+                    height: auto
+            .title
+                text-align: center
+                padding: 5px
+                color: #808080
+                h3
+            .description
+                text-align: center
+                padding: 5px
+                p
+                    font-size: 14px
+        .bot
+            padding: 20px 10px
+
+// FORM
+.Form
+    padding: 10px
+    .Form-Group
+        margin: 12px
+        width: 100%
+        .Input
+            padding: 12px
+            border: 1px solid lightgray
+            border-radius: 4px
+            position: relative
+            background: #fff
+            cursor: text
+            .Left
+                transition: 0.2s all
+                position: absolute
+                cursor: text
+                padding: 0px 4px
+                margin-top: 0px
+                label
+                    font-size: 14px
+                    user-select: none
+                    cursor: text
+                    font-weight: 600
+                    color: gray
+
+            .Right
+                position: absolute
+                right: 5px
+                margin-top: -4px
+                padding: 0px
+                min-height: 30px
+                min-width: 50px
+                display: flex
+                justify-content: center
+                align-items: center
+                .Icon
+                    width: 25px
+                    height: 25px
+                    border-radius: 50%
+                    margin: 0px 2.5px
+                    cursor: pointer
+                    &:active
+                        transform: scale(0.9)
+            input
+                width: 100%
+                border: none
+                outline: none
+                font-size: 16px
+            &.active
+                border: 1px solid #3b96c0 !important
+                .Left
+                    background: #fff
+                    margin-top: -24px
+                    user-select: none !important
+                    label
+                        color: #3b96c0
+                        user-select: none !important
+        .Link
+            margin: 0 2.5px
+            a
+                font-size: 14px
+                text-decoration: none
+                color: #3b96c0
+                font-weight: 600
+                cursor: pointer
+                &:hover
+                    text-decoration: underline
+        .PLink
+            margin: 2.5px
+            font-size: 14px
+            a
+
+                text-decoration: none
+                color: #3b96c0
+                font-weight: 600
+                cursor: pointer
+                &:hover
+                    text-decoration: underline
+        .Buttons
+            margin-top: 19px
+            .Button
+                padding: 10px 12px
+                background: #0047B8
+                text-align: center
+                cursor: pointer
+                border-radius: 4px
+                span
+                    color: #fff
+                    font-weight: 600
+                    font-size: 15px
+                    user-select: none
+                &:active
+                    transform: scale(0.9)

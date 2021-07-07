@@ -1,0 +1,821 @@
+$HEIGHT: calc(100vh - 80px)
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    background: #F0F2F5
+
+// ROOT
+.root-contents
+    .root-top-contents
+    .root-nav
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        height: 80px
+        background: #fff
+        box-shadow: 5px 1px 24px -15px #000000
+        z-index: 999
+        .nav-contents
+            width: 100%
+            height: 100%
+            padding: 0 5%
+            display: flex
+            justify-content: space-between
+            .nav-left
+                display: flex
+                justify-content: center
+                align-items: center
+                .nav-logo
+                    height: 40px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    img
+                        width: 159px
+                        height: 80px
+                        user-select: none
+                        -webkit-user-drag: none
+            .nav-right
+                .nav-links
+                    display: flex
+                    align-items: center
+                    height: 100%
+                    .links
+                        display: flex
+                        align-items: center
+                        .nav-link
+                            list-style-type: none
+                            margin: 5px
+                            position: relative
+                            display: flex
+                            justify-content: center
+
+                            a.main-link
+                                padding: 10px
+                                text-decoration: none
+                                color: rgb(85, 85, 85)
+                                &.active
+                                    color: rgba(0, 0, 0, 0.80)
+                                    font-weight: 600
+
+                            .float-container
+                                position: absolute
+                                top: 100%
+                                min-width: 180px
+                                min-height: 100px
+                                background: #fff
+                                box-shadow: 5px 1px 24px -15px #000000
+                                border-radius: 4px
+                                visibility: hidden
+                                transition-delay: 0.2s
+                                .con-bot
+                                    padding: 5px
+                                    .con-link
+                                        position: relative
+                                        padding: 10px
+                                        text-decoration: none
+                                        color: rgb(85, 85, 85)
+                                        font-size: 15px
+                                        display: block
+                                        font-weight: 500
+                                        &:hover,&.active
+                                            background: #ebeeee
+                                            margin-left: 5px
+                                            color: #050505
+
+                            &:hover
+                                a
+                                    color: #000
+                                .float-container
+                                    visibility: visible
+                                    transition: 0.2s
+                                    margin-top: 5px
+                                    .con-bot
+                                        .con-link
+                                            transition: 0.2s
+
+                    .buttons
+                        display: flex
+                        align-items: center
+                        height: 100%
+                        .button
+                            position: relative
+                            padding: 2.5px
+                            min-width: 35px
+                            min-height: 35px
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            cursor: pointer
+                            .icon
+                                width: 35px
+                                height: auto
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                img,svg
+                                    width: 30px
+                                    height: auto
+                            .description
+                                position: absolute
+                                top: 110%
+                                padding: 8px
+                                background: rgba(0, 0, 0, 0.60)
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                border-radius: 4px
+                                visibility: hidden
+                                span
+                                    color: #fff
+                                    font-size: 12px !important
+                                    white-space: nowrap
+                            &:hover
+                                .description
+                                    visibility: visible
+                            &:active
+                                transform: scale(0.9)
+    .root-body-contents
+        margin-top: 80px
+        min-height: $HEIGHT
+        section
+            &.main
+                display: grid
+                grid-template-columns: 1fr 1fr
+                height: $HEIGHT
+                .left
+                    width: 100%
+                    height: 100%
+                    position: relative
+                    user-select: none
+                    .left-background
+                        width: 100%
+                        height: 100%
+                        overflow: hidden
+                        z-index: 1
+                        img
+                            width: 100%
+                            height: $HEIGHT
+                    .headline
+                        padding: 10px
+                        top: 25%
+                        left: 10%
+                        z-index: 2
+                        position: absolute
+                        h1
+                            font-size: 50px
+                            width: 80%
+                            color: #292828
+                            user-select: none
+                            span
+                                // color: #91268E
+                                font-weight: 700
+                                font-size: 52px
+                        h4
+                            margin: 25px 0
+                            font-size: 20px
+                            color: gray
+            .content-top-content
+                width: 100%
+                .content-background
+                    width: 100%
+                    img
+                        width: 100%
+                        height: auto
+                        max-height: $HEIGHT
+                        object-fit: cover
+            &.normal-container
+                width: 100%
+                min-height: $HEIGHT
+                position: relative
+                overflow: hidden
+
+                &.centered
+                    display: flex
+                    justify-content: center
+                &.aligned
+                    align-items: center
+                .illustration
+                    position: absolute
+                    bottom: 0
+                    right: 10%
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    img,svg
+                        width: 100px
+                        height: auto
+                .cards-container
+                    position: absolute
+                    width: 100%
+                    height: 100%
+                    .cards
+                        width: 100%
+                        height: 100%
+                        position: relative
+                        opacity: 0.40
+                        &::after
+                            content: ""
+                            width: 100%
+                            height: 100%
+                            position: absolute
+                        .card
+                            width: 200px
+                            min-height: 220px
+                            position: absolute
+                            background: #fff
+                            box-shadow: 5px 1px 24px -15px #000000
+                            user-select: none
+                            img
+                                width: 100%
+                                height: auto
+                            .text
+                                text-align: center
+                                padding: 10px
+                                p
+                                    font-size: 18px
+                                    font-weight: 600
+                                    color: rgb(85, 85, 85)
+                                span
+                                    margin-top: 10px
+                                    font-size: 15px
+                                    color: rgb(85, 85, 85)
+                            &:nth-child(1)
+                                top: 15%
+                                left: 13%
+                                transform: rotateZ(-4deg)
+                            &:nth-child(2)
+                                left: 35%
+                                bottom: 10px
+                                transform: rotateZ(-20deg)
+                            &:nth-child(3)
+                                right: 10%
+                                top: -40px
+                                transform: rotateZ(-50deg)
+                            &:nth-child(4)
+                                left: 10px
+                                bottom: -40px
+                                transform: rotateZ(20deg)
+                            &:nth-child(5)
+                                top: -180px
+                                left: 43%
+                                transform: rotateZ(40deg)
+                            &:nth-child(6)
+                                bottom: -130px
+                                right: 12%
+                                transform: rotateZ(-60deg)
+                .big-header
+                    text-align: center
+                    margin-top: 50px
+                    h2
+                        color: rgb(36, 41, 46)
+                        font-size: 64px
+                    a
+                        color: #040d21
+                        font-size: 20px
+                        border-radius: 0
+                        box-shadow: none
+                        display: inline
+                        text-decoration: none!important
+                        position: relative
+                        span
+                            background-color: transparent!important
+                            background-image: linear-gradient(currentColor,currentColor)!important
+                            background-position: 0 100%!important
+                            background-repeat: no-repeat!important
+                            background-size: 100% 2px!important
+                            padding: 5px 0
+                            line-height: 30px
+                        img
+                            width: 24px
+                            margin: 8px
+                            position: absolute
+                            transition: 0.2s all
+                        &:hover
+                            img
+                                margin: 8px 10px
+
+                .floating-info-container
+                    display: grid
+                    grid-template-areas: "illustration info"
+                    margin: 50px 0px
+                    grid-template-areas: "illustration info"
+                    grid-template-columns: 60% 40%
+                    &.right
+                        grid-template-areas: "illustration info"
+                        grid-template-columns: 60% 30%
+                        .info
+                            .text
+                                width: auto
+                    &.left
+                        grid-template-columns: 40% 60%
+                        grid-template-areas: "info illustration"
+                    .info-illustration
+                        grid-area: illustration
+                        display: flex
+                        justify-content: center
+                        align-items: center
+
+                        .ill
+                            width: 500px
+                            min-height: 250px
+                            height: auto
+                            border-radius: 6px
+                            background: #fff
+                            box-shadow: 5px 1px 24px -15px #000000
+                            img
+                                width: 100%
+                                height: 100%
+                                border-radius: 6px
+                                user-select: none
+                                -webkit-user-drag: none
+                    .info
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        grid-area: info
+                        font-family: "Alliance No.1", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+                        .text
+                            width: 70%
+                            h3
+                                color: #627597
+                                font-size: 24px
+                                font-size: 500
+                                width: 120%
+                            span
+                                color: #040d21
+                                font-size: 24px
+                                font-weight: 500
+
+                .center-width
+                    margin-top: 5%
+                    width: 100%
+                    display: flex
+                    justify-content: center
+                    .center-width-content
+                        width: 680px
+                        padding: 10px
+                        article
+                            color: #24292E
+                            margin: 10px 0
+                            .title
+                                h1
+                                    font-size: 30px
+                                    color: #24292E
+                            .content
+                                padding: 10px 0
+                                p
+                                    font-size: 18px
+                                    text-indent: 50px
+                                    text-align: justify
+                .profile-cards
+                    width: 100%
+                    display: grid
+                    grid-template-columns: 1fr 1fr
+                .lists-container
+                    padding: 10px
+                    .title
+                        padding: 10px
+                        h1
+                            font-size: 30px
+                            color: #24292E
+                    .list-container
+                        list-style-type: none
+                        display: flex
+                        cursor: pointer
+                        &:hover
+                            background: #ebeeee
+                            box-shadow: 5px 1px 24px -15px #000000
+                        .left
+                            width: 60px
+                            display: flex
+                            justify-content: center
+                            padding: 10px
+                            .icon
+                                margin-left: 20px
+                                width: 50px
+                                height: 50px
+                                min-width: 50px
+                                min-height: 50px
+                                border-radius: 50%
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                img
+                                    width: 38px
+                                    height: auto
+                            .text
+                                width: 50px
+                                height: 50px
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                text-align: left
+                                span
+                                    text-align: left !important
+                                    font-size: 20px
+                                    font-weight: 600
+                                    margin-left: -50px
+                        .right
+                            padding: 10px
+                            .top
+                                padding: 5px
+                                p
+                                    font-size: 18px
+                            .bot
+                                padding: 5px
+                                span
+                                    font-size: 14px
+                                    color: rgba(0, 0, 0, 0.50)
+                                a
+                                    font-size: 16px
+                                    color: #1A73E8
+                                    font-weight: 600
+                                    text-decoration: none
+
+            &.furniture-software-container
+                width: 100%
+                min-height: 1000px
+                .furniture-content
+                    width: 100%
+                    height: 100%
+                    position: relative
+                    padding: 50px 5%
+                    display: flex
+                    .content-left
+                        width: calc( 100% - 300px )
+                        padding: 10px
+                        .furniture-header
+                        .furniture-body
+                            width: 100%
+                            height: 100%
+                            overflow: auto
+                            .furniture-products
+                                width: 100%
+                                display: grid
+                                grid-template-columns: 1fr 1fr 1fr
+                                .furniture-product
+                                    margin: 10px
+                                    box-shadow: 5px 1px 24px -15px #000000
+                                    position: relative
+                                    cursor: pointer
+                                    transition: 0.2s all
+                                    &:hover
+                                        margin-top: -5px
+                                        .buttons
+                                            visibility: visible
+                                    .buttons
+                                        position: absolute
+                                        top: 0
+                                        left: 0
+                                        display: flex
+                                        padding: 5px
+                                        visibility: hidden
+                                        .button
+                                            margin: 2.5px
+                                            width: 35px
+                                            height: 35px
+                                            border-radius: 50%
+                                            cursor: pointer
+                                            background: #fff
+                                            box-shadow: 5px 1px 24px -15px #000000
+                                            display: flex
+                                            justify-content: center
+                                            align-items: center
+                                            position: relative
+                                            .icon
+                                                display: flex
+                                                justify-content: center
+                                                align-items: center
+                                                img,svg
+                                                    width: 20px
+                                                    height: auto
+                                                    user-select: none
+                                                    -webkit-user-drag: none
+                                            .description
+                                                position: absolute
+                                                top: 120%
+                                                padding: 5px
+                                                background: rgba(0, 0, 0, 0.60)
+                                                border-radius: 4px
+                                                visibility: hidden
+                                                span
+                                                    color: #fff
+                                                    font-size: 12px
+                                                    white-space: nowrap
+                                            &:active
+                                                transform: scale(0.9)
+                                            &:hover
+                                                .description
+                                                    visibility: visible
+                                    .header
+                                        width: 100%
+                                        min-height: 145px
+                                        img
+                                            width: 100%
+                                            height: auto
+                                            max-height: 145px
+                                            object-fit: cover
+                                    .body
+                                        padding: 10px
+                                        .price
+                                            p
+                                                font-size: 24px
+                                                color: rgba(0, 0, 0, 0.87)
+                                                font-weight: 400 !important
+                                        .name
+                                            width: 250px
+                                            overflow: hidden
+                                            a
+                                                font-size: 15px
+                                                text-decoration: none
+                                                color: rgba(0, 0, 0, 0.54)
+                                                text-overflow: ellipsis
+                                                visibility: visible
+
+                                        .description
+                                            margin: 10px 0
+                                            height: 110px
+                                            span
+                                                font-size: 13px
+                                                display: inline
+                                                color: rgba(0, 0, 0, 0.54)
+                                            .read-more-button
+                                                display: inline
+                                                margin-left: 5px
+                                                color: rgba(0, 0, 0, 0.80)
+
+                    .content-right
+                        padding: 10px
+                        .floating-product-info
+                            top: 0
+                            width: 300px
+                            min-height: 400px
+                            border-radius: 6px
+                            background: #fff
+                            box-shadow: 5px 1px 24px -15px #000000
+                            transition: 0.5s all
+                            &.fixed
+                                position: fixed
+                                top: 25%
+                            &.mtop
+                                position: absolute
+                                top: auto
+                                bottom: 100px
+                            .skeleton
+                                padding: 10px
+                            .illustration
+                                width: 100%
+                                min-height: 150px
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                padding: 20px
+                                margin: 20px 0
+                                overflow: hidden
+                                img
+                                    width: 130px
+                                    height: auto
+                                    user-select: none
+                                    -webkit-user-drag: none
+                                    cursor: pointer
+                                    transition: 0.2s all
+                                    &:hover
+                                        transform: scale(0.8)
+                            .headline
+                                text-align: center
+                                padding: 10px
+                                color: gray
+                                font-size: 20px
+                            .info-contents
+                                .top
+                                    .image
+                                        width: 100%
+                                        img
+                                            width: 100%
+                                            max-height: 200px
+                                            object-fit: cover
+                                    .price
+                                        padding: 10px
+                                        p
+                                            font-size: 24px
+                                            color: rgba(0, 0, 0, 0.87)
+                                            font-weight: 400 !important
+                                    .name
+                                        width: 250px
+                                        overflow: hidden
+                                        padding: 0 10px
+                                        a
+                                            font-size: 20px
+                                            text-decoration: none
+                                            color: rgba(0, 0, 0, 0.54)
+                                            text-overflow: ellipsis
+                                            visibility: visible
+
+                                .bot
+                                    margin-top: 20px
+                                    padding: 20px
+
+    .root-bot-contents
+        footer.root-footer
+            min-height: 300px
+            background: #272727
+            .footer-contents
+                padding: 3% 5%
+                display: grid
+                grid-template-columns: 1fr 1fr 1fr 1fr
+                .container
+                    .logo
+                        img
+                            width: 240px
+                            height: auto
+                            filter: invert(50%)
+                            transition: 0.2s
+                            user-select: none
+                            -webkit-user-drag: none
+                            &:hover
+                                filter: invert(30%)
+                    .head
+                        padding: 10px
+                        h3
+                            color: #fff
+                    .links
+                        margin-top: 10px
+                        li
+                            list-style-type: none
+                            a
+                                text-decoration: none
+                                color: #fff
+                                display: flex
+                                align-items: center
+                                padding: 10px
+                                .icon
+                                    img,svg
+                                        width: 20px
+                                        height: auto
+                                .text
+                                    span
+                                        font-size: 15px
+                                &:hover
+                                    text-decoration: underline
+                    .map
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        width: 100%
+                        height: 100%
+.contact-main-contents
+    background: #fff
+// UTILS
+.image-slideshow-container
+    position: relative
+    width: 100%
+    height: 100%
+    .image-slideshow
+        width: 100%
+        height: 100%
+        position: relative
+        .vertical-button
+            width: 100px
+            height: 100%
+            position: absolute
+            cursor: pointer
+            z-index: 2
+            &.prev
+                left: 0
+                top: 0
+                right: auto
+            &.next
+                left: auto
+                right: 0
+                top: 0
+            &:hover
+                background: rgba(235, 238, 238,0.10)
+
+        .slideshow-contents
+            width: 100%
+            height: 100%
+            display: flex
+            overflow: hidden
+            .slideshow-content
+                width: 100%
+                height: 100%
+                display: none
+                overflow: hidden
+                position: relative
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                    max-height: $HEIGHT
+                &.hide
+                    display: none !important
+                &.show
+                    display: block
+                &.show-to-left
+                    animation: showLeft 0.5s forwards
+                &.show-to-right
+                    animation: showRight 0.5s forwards
+                &.hide-to-right
+                    animation: hideRight 0.5s forwards
+                &.hide-to-left
+                    animation: hideLeft 0.5s forwards
+                &:first-child
+                    display: block
+.search-engine-container
+    width: 500px
+    z-index: 2
+    margin-top: 10%
+    .search-engine
+        position: relative
+        background: #fff
+        padding: 18px 12px
+        display: flex
+        align-items: center
+        box-shadow: 5px 1px 24px -15px #000000
+        border-radius: 4px
+        .icon
+            margin-right: 10px
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 50%
+            padding: 2px
+            cursor: pointer
+            img,svg
+                width: 24px
+                height: auto
+        input
+            font-size: 18px
+            width: 100%
+            border: none
+            outline: none
+.ellipsis
+    overflow: hidden
+
+    &:before
+        content: ""
+        float: left
+        width: 5px
+        height: 200px
+
+    & > *:first-child
+        float: right
+        width: 100%
+        margin-left: -5px
+
+    &:after
+        content: "\02026"
+        box-sizing: content-box
+        -webkit-box-sizing: content-box
+        -moz-box-sizing: content-box
+        float: right
+        position: relative
+        top: -25px
+        left: 100%
+        width: 3em
+        margin-left: -3em
+        padding-right: 5px
+        text-align: right
+        background-size: 100% 100%
+        background-image: url(data:image/pngbase64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAABCAMAAACfZeZEAAAABGdBTUEAALGPC/xhBQAAAwBQTFRFwDWRdwAAAP90Uk5TgsRjMZXhS30YrvDUP3Emow1YibnM9+ggOZxrBtpRRo94gxItwLOoX/vsHdA2yGgL8+TdKUK8VFufmHSGgAQWJNc9tk+rb5KMCA8aM0iwpWV6dwP9+fXuFerm3yMs0jDOysY8wr5FTldeoWKabgEJ8RATG+IeIdsn2NUqLjQ3OgBDumC3SbRMsVKsValZplydZpZpbJOQco2KdYeEe36BDAL8/vgHBfr2CvTyDu8R7esU6RcZ5ecc4+Af3iLcJSjZ1ivT0S/PMs3LNck4x8U7wz7Bv0G9RLtHuEq1TbJQr1OtVqqnWqRdoqBhnmSbZ5mXapRtcJGOc4t2eYiFfH9AS7qYlgAAARlJREFUKM9jqK9fEGS7VNrDI2+F/nyB1Z4Fa5UKN4TbbeLY7FW0Tatkp3jp7mj7vXzl+4yrDsYoVx+JYz7mXXNSp/a0RN25JMcLPP8umzRcTZW77tNyk63tdprzXdmO+2ZdD9MFe56Y9z3LUG96mcX02n/CW71JH6Qmf8px/cw77ZvVzB+BCj8D5vxhn/vXZh6D4uzf1rN+Cc347j79q/zUL25TPrJMfG/5LvuNZP8rixeZz/mf+vU+Vut+5NL5gPOeb/sd1dZbTs03hBuvmV5JuaRyMfk849nEM7qnEk6IHI8/qn049hB35QGHiv0yZXuMdkXtYC3ebrglcqvYxoj1muvC1nDlrzJYGbpcdHHIMo2FwYv+j3QAAOBSfkZYITwUAAAAAElFTkSuQmCC)
+
+@keyframes hideLeft
+    0%
+        margin-left: 0
+    50%
+        margin-left: -100%
+    100%
+        display: none
+        margin-left: -100%
+
+@keyframes hideRight
+    0%
+        margin-left: 0
+    50%
+        margin-left: 100%
+    100%
+        display: none
+        margin-left: 100%
+
+@keyframes showLeft
+    0%
+        margin-left: 0
+    50%
+        margin-left: -100%
+    100%
+        margin-left: -100%
+
+@keyframes showRight
+    0%
+        margin-left: 0
+    50%
+        margin-left: 100%
+    100%
+        margin-left: 100%

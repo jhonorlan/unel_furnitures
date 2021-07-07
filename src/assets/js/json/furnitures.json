@@ -1,0 +1,263 @@
+[
+	{
+		"name": "Beds",
+		"products": [
+			{
+				"name": "Urban Outfitters Marte Platform Bed",
+				"price": 10000,
+				"image": "https://media.glamour.com/photos/606dc5dc75155539af5afd3e/master/w_1600%2Cc_limit/bed%2520frames.jpeg",
+				"description": "It’s vacation vibes all the time with this minimal rubberwood bedframe with a rattan inset headboard. Features rounded corners and a supportive slatted surface so no box spring mattress is needed! Pair it with our Meiko Nightstand + Marte Storage cabinet for an easy, breezy modern bedroom set; all sold separately and exclusively available here"
+			},
+			{
+				"name": "Item #1",
+				"price": 11000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/48331433_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Sleek + lustrous, this bed frame is crafted from sustainable rubberwood with Okume veneer. Lifted bed frame featuring solid headboard + footboard in a natural finish with a slatted base. Sized to fit a standard queen bed perfectly; box spring required."
+			},
+			{
+				"name": "Wing Single Bed",
+				"price": 15000,
+				"image": "https://i.pinimg.com/564x/3d/66/e9/3d66e9b1ea23db52bfd5ad4e9ca0da43.jpg",
+				"description": "The Wing Single Bed combines languid curves witht classical camel-back lines rendered modern with rigorous simplicity of form. The upholstered headboard is generous and comfortable, and the frame is upholstered to continue the same softness at every touch point."
+			},
+			{
+				"name": "Riley Platform Bed",
+				"price": 16000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/48142970_004_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Bring clean, cozy lines to your space with this upholstered platform bed frame, available exclusively. Featuring a sleek upholstered headboard and frame with pine wood legs and slatted base.Recommended for use with a standard sized mattress, typically 10”-14” thick."
+			},
+			{
+				"name": "Mia Rattan Bed",
+				"price": 20000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/49422611_111_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "With a ‘70s-inspired boho look, this bed frame from our exclusive Mia collection features a looped rattan construction with a graphic, linear design. In a natural finish with a curving silhouette featuring rounded corners at headboard and around framed base. Finished with slatted base for mattress."
+			},
+			{
+				"name": "Ellie Canopy Bed",
+				"price": 21000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/41494816_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "The canopy bed you've always dreamed of in natural gmelina wood, only available right here. In a sturdy slated construction so there's no need for a box spring with a rectangular structure built overhead for hanging an airy canopy, string lights or plants - let your imagination run wild."
+			},
+			{
+				"name": "Marcel velvet Bed",
+				"price": 22000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/41494816_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "So chic we can’t even stand it, this tufted velvet bed is straight out of our Parisian dreams. Featuring a headboard and frame covered in soft, dimensional velvet with tufted seaming and rounded edges. Finished with slim, shiny metal legs. Assembly required"
+			},
+			{
+				"name": "Marielle velvet Bed",
+				"price": 23000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/46787933_080_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Ultra-glam velvet platform bed frame. Featuring minimalist framing with a lifted platform construction and straight headboard in a luxe, dimensional velvet with 4 removable, brushed metal legs. This custom furniture piece will be made to order just for you."
+			}
+		]
+	},
+
+	{
+		"name": "Cabinets",
+		"products": [
+			{
+				"name": "Marcel velvet Bed",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/47656467_022_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "With a minimally bohemian look, our Marte dresser features a 6-drawer construction with rattan detailing. Featuring three rows of two drawers each with wooden framing and woven rattan drawers, complete with cutout pulls. Set on tapered-out removable legs."
+			},
+			{
+				"name": "Camilla 6-Drawer dresser",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/49756448_020_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Inspired by mid-century design signatures, this 6-drawer dresser is made from natural finish wood. Wide silhouette features 6 drawers with bar pulls and raised construction set on tapered, dowel legs."
+			},
+			{
+				"name": "Kira dresser",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/48332043_020_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "The sleekest way to maximize your storage space, this 9-drawer dresser has room for absolutely everything you want to store away. Featuring a trio of smaller drawers on the top row and 6 larger drawers, this dresser epitomizes a modern take on an industrial look."
+			},
+			{
+				"name": "Mary storage cabinet",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/59845115_111_e?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Modern makes a moment with this standout storage cabinet. Ovular shaping features a two-door entry with integrated handles revealing a trio of shelves forming four separated storage compartments."
+			},
+			{
+				"name": "Nadia Low Credenza",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/60261518_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Topped with boho-cool pitted texture, this low credenza is made from wood in a two-tone finish that feels so fresh. Equipped with four doors and two interior shelves for storing gaming consoles, books, trinkets and more, equipped with a porthole at the back for threading wires through. Display your record player, plants, ceramics and more on top."
+			},
+			{
+				"name": "Melody 4-Door Rattan Storage Cabinet",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/59688119_111_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Store your favorite treasures, records and crystals in this rattan cabinet offering vintage-look boho vibes with the prettiest design details. Four-door cabinet features rattan loop panes and a curving base with bound accents. With two shelves for a versatile display that shows off your ceramics, art pieces and coffee table books. This custom furniture piece will be made to order just for you. "
+			}
+		]
+	},
+	{
+		"name": "Chairs",
+		"products": [
+			{
+				"name": "Bacci Chair",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/45228079_012_e?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "We can’t get over how beautiful the mid-century modern Bacci Chair is! It features a birch wood frame and richly varnished walnut veneer with a sleek, cushy seat upholstered in textural tweed. Finished with 4 tapered legs for a modern-retro touch."
+			},
+			{
+				"name": "Rosa Velvet Dining Chair",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/44595528_030_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Trimmed with straight, lacquered legs to complete the look, place it around your table, at your desk or as an accent to any room."
+			},
+			{
+				"name": "Elia Velvet Dining Chair",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/55698559_034_e?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "All over velvet dining chair featuring a minimalist, cushioned silhouette with gently contoured curves and a luxe look. Finished with velvet-clad dowel legs. Assembly required."
+			},
+			{
+				"name": "Jai Outdoor Chair - Set Of 2",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/51777548_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Give your outdoor space a new look with this set of 2 powder-coated metal chairs. Featuring a crossing, gridded seat back and rounded structure, set on thin, tapered legs."
+			},
+			{
+				"name": "Mimi Stackable Outdoor Chair",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/60929130_030_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Make your patio the place to be with this metal outdoor chair in a fresh color-pop finish. Featuring ovular shaping at the seat and back, supported by slim legs and framing for a modern look we love in a stackable construction. Outdoor safe - keep dry and cover or store indoors when not in use or in the event of inclement weather. "
+			},
+			{
+				"name": "Floria Velvet Chair",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/52942547_000_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Upholstered allover in rich velvet, this arm chair lends a luxurious interpretation of modernist silhouettes to your space. Tri-leg chair features cushions at seat and back, set on a wrapped and folded structure that feels so fresh and unexpected. Please note, due to the fabric printing process for the Black + White Floria Velvet Chair, slight blue undertones may be apparent."
+			}
+		]
+	},
+	{
+		"name": "Clocks",
+		"products": [
+			{
+				"name": "Cloudnola Factory Wall Clock",
+				"price": 8000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/58394305_004_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Round wall clock with a colorful rimmed frame and retro numbered face topped with two-hand movement."
+			},
+			{
+				"name": "Cloudnola Textime Bamboo Wall Clock",
+				"price": 10000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/49838154_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Modern style meets retro utility with this flip-mechanism wall clock from Cloudnola. Long bar clock with wooden framing featuring lettered display printed onto flip cards. Mounts to wall"
+			},
+			{
+				"name": "Cloudnola Flor Clock",
+				"price": 10000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/49837941_060_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Colorblocked tabletop clock from Cloudnola, featuring a round build set on angled-out legs. Made from pine wood with colorblocked quarters and dotted markings. 3-hand analog movement."
+			},
+			{
+				"name": "Himalayan Salt Sunrise Alarm Clock",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/59106245_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Rise and shine with rejuvenated vibes when you wake up to this sunrise-simulating alarm clock by Mahli featuring a natural Himalayan salt base and wood-look top. Warm LEDs illuminate the time and temperature in Fahrenheit or Celsius while emitting a cozy amber glow. Equipped with a snooze function. USB plug-in."
+			},
+			{
+				"name": "Cloudnola Flipping Out Copper Clock",
+				"price": 15000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/49836646_004_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Retro-inspired functionality meets a modern look with this Cloudnola clock, manufactured with an open flip mechanism, digital-look display and brushed metal framing. Can be wall mounted or displayed tabletop. Battery powered."
+			},
+
+			{
+				"name": "Kikkerland Design Retro Alarm Clock",
+				"price": 17000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/60196052_060_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Compact alarm clock by Kikkerland Design with a nostalgic, retro-inspired look we love. Topped with four hand movement and a glow-in-the-dark finish."
+			}
+		]
+	},
+	{
+		"name": "Desks",
+		"products": [
+			{
+				"name": "Jeric Desk",
+				"price": 10000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/51382521_014_e?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "The perfect spot for dreaming up big ideas and working like a pro, the Rooney Desk features an industrial-minimalist look with 6 pull drawers and a metal base. 2 people recommended for assembly."
+			},
+			{
+				"name": "Anders Desk",
+				"price": 11000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/59383539_111_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Scandi-inflected desk that does it all, thanks to built-in storage and an expansive workspace for plugging away at a paper, relaxing with a coloring book or crafting. Features pull-out drawers along the left side, topped with a cubby and slim top drawer underneath the desktop. Assembly required."
+			},
+			{
+				"name": "Joseph Desk",
+				"price": 11000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/58276338_111_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Mid-century modern-inspired desk that creates an ultra-functional workspace with sleekly minimal style signatures we love. Equipped with three storage drawers featuring metal handles topping a base with dowels set at a slanting angle. Assembly required."
+			},
+			{
+				"name": "Noriel Desk",
+				"price": 11000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/51931467_020_e?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Sleekly minimal desk with 2 storage drawers and a wood-meets-metal construction. Wooden tabletop and drawers with metal glides and cutout pulls, set on an angular metal base. 2 people recommended for assembly."
+			},
+			{
+				"name": "Amelia desk",
+				"price": 12000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/52682267_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Mango wood desk from our UO-exclusive Amelia collection with mid-century modern motifs. Featuring tapered legs with a flat tabletop and dual pull-out drawers for storing files and take-out menus. Highlights a natural finish with visible wood grain. Assembly required."
+			},
+			{
+				"name": "Kirby Exposed Shelf Desk",
+				"price": 15000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/61886297_020_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Curate a workspace that leaves room for creativity with this industrial-cool desk with metal framing and manufactured wood desktop and storage shelves. The open construction with two shelves on either side shows off your favorite office supplies and trinkets, while an expansive tabletop offers room to spread out and find your best ideas. Assembly required."
+			}
+		]
+	},
+	{
+		"name": "Tables",
+		"products": [
+			{
+				"name": "Ashford Desk",
+				"price": 9000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/46062121_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Creativity unleashed at this modern-meets-vintage desk. Sawhorse frame made from sustainable mango wood in a natural finish with a glass top, perfect for spreading out your work, materials and favorite pens to get that creativity flowing. Moderate assembly required."
+			},
+			{
+				"name": "Astrid Dining Table",
+				"price": 11000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/51931731_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Modernist dining table available exclusively that offers your space graphic-cool appeal. Featuring a slatted tabletop with dual plank base accented by circle cutouts for an unexpectedly fresh detail. Pairs perfectly with the Astrid Dining Bench - sold separately. Assembly required."
+			},
+			{
+				"name": "Haskall Breakfast Bar",
+				"price": 13000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/43394279_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": " space-saving high-top breakfast bar that comes with 2 comfort-molded stools that slide to hang on brackets underneath! Crafted in India with stunning natural mango wood surfaces and sturdy lacquered iron legs. Style it against a wall or use it to create an island in your kitchen."
+			},
+			{
+				"name": "Harlan Glass Dining Table",
+				"price": 16000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/54680459_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Translating a mid-century modern aesthetic into your of-the-moment space, this dining table features an ash wood base with a glass top that highlights the tapering angles of the timeless frame. Assembly required."
+			},
+			{
+				"name": "Ansel Drum Dining Table",
+				"price": 14000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/53050431_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Gather all your pals for dinner around this medium stain acacia wood dining table, cut round with a cylindrical drum base for a standout, elevated look. Base features geo shaping for a fresh take. 2 people recommended for assembly."
+			},
+
+			{
+				"name": "Marisol Rattan Desk",
+				"price": 22000,
+				"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/55121867_111_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=640",
+				"description": "Channeling vintage-inspired aesthetics, this rattan desk features an arching frame with rounded edges and dual drawers with bar pulls along upper edge. Features an allover basket woven construction. Made from natural rattan, expect some variance in the hue of the piece you receive from what's pictured here"
+			}
+		]
+	}
+]

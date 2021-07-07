@@ -67,7 +67,10 @@ export const InputUtil = ({ item, index, validation }) => {
 								<InputAdornment position="end">
 									<IconButton
 										aria-label="toggle password visibility"
-										onClick={() => item.setShowPassword(!item.showPassword)}
+										onClick={() =>
+											item.setShowPassword &&
+											item.setShowPassword(!item.showPassword)
+										}
 										edge="end"
 									>
 										{item.showPassword ? <Visibility /> : <VisibilityOff />}

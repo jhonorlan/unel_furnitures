@@ -53,7 +53,7 @@ const Form = ({ contents, validation }) => {
 const Login = ({ data }) => {
 	const { setter, getter } = data;
 	const [validate, setValidate] = useState(false);
-
+	const [showPassword, setShowPassword] = useState(false);
 	return (
 		<div className="authentication-container">
 			<div className="left">
@@ -91,6 +91,8 @@ const Login = ({ data }) => {
 								value: getter.password,
 								set: setter.setPassword,
 								error: getter.passErr,
+								showPassword,
+								setShowPassword
 							},
 							{
 								as: "link",
